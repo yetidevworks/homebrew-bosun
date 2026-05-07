@@ -2,27 +2,27 @@ class Bosun < Formula
   desc "Tmux-native orchestrator for AI agent sessions"
   homepage "https://github.com/yetidevworks/bosun"
   license "MIT"
-  version "0.2.11"
+  version "0.2.12"
 
   on_macos do
     on_arm do
-      url "https://github.com/yetidevworks/bosun/releases/download/v0.2.11/bosun-darwin-aarch64.tar.gz"
-      sha256 "efdfa1431fdb082173cd069be20cc42c8d1a2c3c9f374aaf3c1a0315f26bf0c0"
+      url "https://github.com/yetidevworks/bosun/releases/download/v0.2.12/bosun-darwin-aarch64.tar.gz"
+      sha256 "d26325c1806d6d7cdc78b6c6fdb34c3a496660306e3bf3fe41897fbb49dfe66f"
     end
     on_intel do
-      url "https://github.com/yetidevworks/bosun/releases/download/v0.2.11/bosun-darwin-x86_64.tar.gz"
-      sha256 "c8a5bf471dbd2299af46980bde07918ec2cfbcdf2f76948d64ac46c4bf848929"
+      url "https://github.com/yetidevworks/bosun/releases/download/v0.2.12/bosun-darwin-x86_64.tar.gz"
+      sha256 "cead233beaabf41a16b3c4fbfc0ac5df05bcfcc88b7c49fd2fd3be59f0a113fa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/yetidevworks/bosun/releases/download/v0.2.11/bosun-linux-x86_64.tar.gz"
-      sha256 "346790d3193436fae93e082d1582a37794f1b732603452526d6bda9bb3107bd5"
+      url "https://github.com/yetidevworks/bosun/releases/download/v0.2.12/bosun-linux-x86_64.tar.gz"
+      sha256 "9f5734e0f205b2489f2f6ddbb84515f9a888030fc1cd63f565a9060f14fc4e6a"
     end
     on_arm do
-      url "https://github.com/yetidevworks/bosun/releases/download/v0.2.11/bosun-linux-aarch64.tar.gz"
-      sha256 "140bc71b742d3e9c2fb0e5cc6644876ccc3e6f6c2bb3b0869aa2070aee0c7add"
+      url "https://github.com/yetidevworks/bosun/releases/download/v0.2.12/bosun-linux-aarch64.tar.gz"
+      sha256 "d7a76584ef598bbd9d02558eb01dbc1cf6e272bcd36b07c82ef509610bd1b83e"
     end
   end
 
