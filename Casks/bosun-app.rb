@@ -1,6 +1,6 @@
 cask "bosun-app" do
-  version "2.2.1"
-  sha256 "cc428fa7c2ea78a0a9f507b85f16f7a3bf06bf7270a809b5e472ba0b0c3112f4"
+  version "2.2.3"
+  sha256 "8be00ff0eab4372c9fa06d2ad2479985ccae3f390adb27dedeee4a48ddea0c98"
 
   url "https://github.com/yetidevworks/bosun/releases/download/v#{version}/Bosun-#{version}.dmg"
   name "Bosun"
